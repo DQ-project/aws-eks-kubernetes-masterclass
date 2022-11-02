@@ -16,7 +16,7 @@
 - It will take 15 to 20 minutes to create the Cluster Control Plane 
 ```
 # Create Cluster
-eksctl create cluster --name=eksdemo1 \
+eksctl create cluster --name=eksdemo3 \
                       --region=us-east-1 \
                       --zones=us-east-1a,us-east-1b \
                       --without-nodegroup 
